@@ -1,0 +1,6 @@
+# Allow the tests to be run using `tox-stages`
+[tool.test-stages]
+stages = [
+  "(@check or @docs) and not @manual",
+  "@tests and not @manual",
+]
