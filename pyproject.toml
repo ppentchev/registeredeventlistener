@@ -1,3 +1,6 @@
+[tool.mypy]
+strict = true
+
 # Allow the tests to be run using `tox-stages`
 [tool.test-stages]
 stages = [
